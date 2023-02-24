@@ -2,14 +2,12 @@ body{
     font-family: "Montserrat";
 }
 
-.header{
-    height: 100vh;
-    position: absolute;
-}
-
 #title{
     background-color: #ff4c68;
     color: #fff;
+    display: flex;
+    height: 100vh;
+    min-height: 600px;
 }
 
 .container-fluid{
@@ -18,6 +16,8 @@ body{
 
 #phoneimg{
     transform: scale(0.75) rotate(0.1turn);
+    position: relative;
+    bottom: 10%;
 }
 
 h1{
@@ -49,4 +49,36 @@ h1{
 
 .download-button{
     margin: 5% 3% 5% 0;
+}
+
+#features{
+    margin: 0;
+    padding: 5% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon{
+    color: #ef8172;
+    transform: scale(3);
+    margin: 2rem;
+}
+
+.features-icon:hover{
+    color: #ff4c68;
+}
+
+.features-p{
+    color: #8f8f8f;
 }
