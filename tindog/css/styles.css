@@ -2,11 +2,29 @@ body{
     font-family: "Montserrat";
 }
 
+h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+/* Headings */
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 3rem;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 #title{
     background-color: #ff4c68;
     color: #fff;
     display: flex;
-    max-height: 700px;
+    height: auto;
 }
 
 .container-fluid{
@@ -18,20 +36,6 @@ body{
     position: relative;
     bottom: 10%;
     left: 20%;
-}
-
-h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 3rem;
-}
-
-h2{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 3rem;
 }
 
 .navbar{
@@ -53,6 +57,10 @@ h2{
     font-weight: 300;
 }
 
+ul{
+    text-align: right;
+}
+
 .download-button{
     margin: 5% 3% 5% 0;
 }
@@ -64,11 +72,10 @@ h2{
     background-color: #fff;
 }
 
-h3{
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 1.5rem;
+.feature-title {
+    font-size: 1.5 rem;
 }
+
 .feature-box{
     text-align: center;
     padding: 5%;
@@ -94,6 +101,11 @@ h3{
     background-color: #ef8172;
     color: #fff;
     
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image{
@@ -122,6 +134,11 @@ h3{
     padding: 100px;
 }
 
+.card-title {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .card-deck{
     margin: 7% 15%;
 }
@@ -134,10 +151,27 @@ h3{
 
     #title{
         text-align: center;
+        max-height: 1000px;
     }
     #phoneimg{
         position: static;
-        transform: rotate(0);
+        transform: rotate(0) scale(0.7);
+    }
+
+    .testimonial-text{
+        font-size: 2rem;
+    }
+
+    .testimonial-image{
+        width: 35%;
+    }
+
+    .emtext{
+        font-size: 2rem;
+    }
+
+    .card-deck{
+        margin: 7% 5%;
     }
 }
 
